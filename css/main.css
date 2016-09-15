@@ -1,6 +1,93 @@
+/*header*/
 .back {
-	background-color: cyan;
+	background-color: #008a96;
 }
 .titulo {
-	
+	font-family: ;
+}
+h2 {
+	color: white;
+}
+span {
+	color: rgba(244, 117, 54, 0.92);
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+.list1 {
+	display: flex;
+    margin: 2% 22%;
+    word-spacing: 10px;
+}
+/*section*/
+.backimg {
+    background-image: url(../img/img-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back2 {
+    background-color: rgba(0, 138, 150, 0.73);
+    height: 280px;
+    width: 80%;
+    margin: 0% 10%;
+    padding-top: 10%;
+}
+h1 {
+	color: rgba(244, 117, 54, 0.92);
+	text-align: center;
+    font-size: 80px;
+}
+.list2 {
+    margin: 0% 40%;
+    list-style: none;
+    display: inline-flex;
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+
+}
+/*section2*/
+.back3 {
+	background-color: red;/*prueba*/
+	height: 360px;
+}
+.img1 {
+    width: 100%;
+    height: 150px;
+}
+.img2 {
+    width: 100%;
+    height: 150px;
+}
+.img3 {
+    width: 100%;
+    height: 150px;
+}
+.img4 {
+    width: 100%;
+    height: 150px;
+}
+.back4 {
+	background-color: #008a96;
+	height: 170px;
+}
+.box2 {
+    margin: -4px 12px;
+}
+/*contenedor foot*/
+.imgbunny {
+	width: 15%;
+}
+footer {
+	background-color: rgba(0, 138, 150, 0.73);
+	height: 100px; 
+	border-top-style: ;
+}
+.pfoot {
+    text-align: center;
+    color: white;
+    padding-top: 3%;
 }
