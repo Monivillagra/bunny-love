@@ -17,8 +17,8 @@ body {
 	height: 100px;
 }
 .titulo {
-    text-align: center;
     margin-top: 1%;
+    font-family: "Baloo Paaji";
 }
 .pbonny {
 	color: white;
@@ -27,13 +27,19 @@ body {
 	margin: 10px 3px;
 }
 .plove {
-	color: pink;
+	color: rgb(251, 92, 92);
 	display: inline-block;
 	font-size: 30px;
 	margin: 10px 3px;
 }
 .menu {
-    text-align: center;
+    /*text-align: right;*/
+    /*font-family: prompt;*/
+}
+.list1 {
+	margin-right: -20%;
+    text-align: right;
+    font-family: prompt;
 }
 .list1 li {
 	display: inline-block;
@@ -47,30 +53,32 @@ body {
 /*section*/
 .backimg {
 	background-image: url(../img/img-1.jpg);
-	height: 515px;
+	height: 500px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 .back2 {
-    background-color: rgba(0, 138, 150, 0.73);
+    background-color: rgba(0, 138, 150, 0.79);
     width: 80%;
     margin: 5% 10%;
 }
 .titulosb {
-    color: rgba(244, 117, 54, 0.92);
+    color: rgb(251, 92, 92);
     text-align: center;
+    font-family: "Baloo Paaji";
     font-size: 60px;
     padding: 10% 0% 10% 0%;
 }
 .list2 {
-    margin-bottom: 14%;
+    margin-bottom: 8%;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-family: prompt;
+    word-spacing: 16px;
 }
 /*section2*/
 .box {
-    padding: 1% 1% 0% 1%;
+    padding: 2% 1% 0% 1%;
     background-color: white;
 }
 .imgb {
@@ -80,18 +88,22 @@ body {
 }
 .box1 {
     background-color: #008a96;
-    height: 270px;
-    padding: 0% 3% 0% 0%;
+    padding: 0% 3% 5% 0%;
     margin: 5% 0% 5% 0%;
     text-align: center;
 }
 .box1 h2 {
     padding: 5% 1% 0% 0%;
     margin-bottom: 5%;
+    color: rgb(251, 92, 92);
+    font-family: "Baloo Paaji";
+    font-size: 22px;
 }
 .box1 p {
-    padding: 15% 0 5% 0;
-    font-size: 20px;
+    padding: 10% 2%;
+    font-size: 19px;
+    color: white;
+    font-family: prompt;
 }
 /*section foot*/
 .imgbunny {
@@ -102,13 +114,15 @@ body {
 }
 /*foot*/
 footer {
-	background-color: rgba(0, 138, 150, 0.73);
+	background-color: #008a96;
 	height: 100px; 
-	border-top: 3px rgba(244, 117, 54, 0.92) solid;
+	border-top: 3px rgb(251, 92, 92) solid;
 }
 .pfoot {
 	text-align: center;
+	font-family: prompt;
 	color: white;
+	font-size: 10px;
 	padding-top: 3%;
 }
 
